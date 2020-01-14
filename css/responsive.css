@@ -1,0 +1,144 @@
+/* Normal desktop :1200px. xl-device*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px.  lg-device*/
+@media (min-width: 992px) and (max-width: 1200px) {
+.slider-height{
+    min-height: 650px;
+}
+.slider-content h1 {
+    font-size: 56px;
+}
+.video-content h2 {
+    font-size: 42px;
+}
+.services-box h4, .cases-box h4 {
+    font-size: 18px;
+}
+.single-testimonial h3 {
+    font-size: 24px;
+}
+.consulation-from {
+    padding: 40px;
+}
+.read-more a {
+    margin-top: 35px;
+}
+.blog-content {
+    padding: 17px 0;
+}
+.blog-content h5 {
+    font-size: 14px;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-massege span {
+        font-size: 10px;
+    }
+    .single-cta {
+        margin-left: 25px;
+    }
+    .single-cta span {
+
+        font-size: 14px;
+    }
+    element {
+
+    }
+    .main-menu{
+        margin: 0;
+    }
+    .main-menu ul li{
+        margin: 0;
+    }
+    .main-menu ul li a {
+        font-size: 14px;
+        margin-right: 15px;
+    }
+    .slider-height {
+        min-height: 460px;
+    }
+    .slider-content h1 {
+        font-size: 40px;
+    }
+    .featuers-box h4 {
+        font-size: 20px;
+    }
+    .featuers-box p {
+        margin: 0;
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .video-content h4 {
+        font-size: 20px;
+    }
+    .video-content h2 {
+        font-size: 35px;
+        margin: 15px 0 25px;
+    
+    }
+    .section-title h4 {
+        font-size: 26px;
+    }
+    .mb-60{
+        margin-bottom: 30px;
+    }
+    .pt-30{
+        padding-top: 30px;
+    }
+    .section-title {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .cases-active .slick-arrow {
+        top: -58px;
+    }
+    .blog-thumb{
+        position: relative;
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+    }
+    .blog-thumb img{
+        transition: all 0.3s ease-in-out;
+    }
+    .blog-thumb img:hover{
+        transform: scale(1);
+    }
+    .subcribe-form {
+        width: 200px;
+    }
+    .footer-widget p {
+        font-size: 12px;
+    }
+    .footer-widget .footer-menu-link li {
+        margin-bottom: 7px;
+    }
+    .footer-widget .footer-menu-link li a {
+        font-size: 12px;
+    }
+    .footer-widget .footer-menu-link li a::before {
+    top: 9px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+
+ 
+}
